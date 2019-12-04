@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoryActivity">
+    <GridLayout
+        android:id="@+id/cb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+
+    </GridLayout>
+
+
+    <Button
+        android:id="@+id/add_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카테고리 추가"
+        android:layout_gravity="right"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/complete_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="선택완료"/>
+    </LinearLayout>
+
+
+</LinearLayout>
